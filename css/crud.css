@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+body{
+    padding: 20px;
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+
+}
+h3{
+    font-weight: 600;
+    margin: 10px 0;
+    color: tomato;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-left: 50px;
+}
+form{
+    width: 350px;
+    padding: 10px;
+    background-color: teal;
+    color: #fff;
+    margin-left: 70px;
+}
+form .form-group{
+    display: flex;
+    align-items: center;
+}
+form .form-group label{
+    font-weight: 500;
+    text-transform: uppercase;
+    min-width: 70px;
+}
+form .form-group input{
+    font-size: 16px;
+    width: 100%;
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    background-color: #f1f1f1;
+    border-radius: 2px;
+    margin: 10px 5px;
+}
+form button{
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    border: none;
+    background-color: tomato;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 15px 0;
+}
+
+table{
+    border: 1px solid teal;
+    border-collapse: collapse;
+    min-width: 500px;
+    margin-top: 20px;
+}
+table thead tr{
+    background-color: teal;
+    color: white;
+    border-color: teal;
+}
+table thead tr th{
+    border-color: teal;
+    font-weight: 400;
+}
+table td,
+table th{
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+}
+table td button{
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 5px 8px;
+    display: block;
+    margin: 0 auto;
+    background: teal;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.btn-delete{
+    background: red;
+}
+
+.btn-edit i,
+.btn-delete i{
+    pointer-events: none;
+}
+
+.gender{
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+}

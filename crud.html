@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/crud.css"/>
+</head>
+<body>
+    <h3>Crud by JavaScript with Firebase</h3>
+    <form action="#" id="frm">
+        <input type="hidden" id="id"/>
+        <div class="form-group">
+                <label for="name">name</label>
+                <input type="text" id="name" placeholder="Full Name"/>
+        </div>
+
+        <div class="form-group">
+                <label for="age">Age</label>
+                <input type="text" id="age" placeholder="Age"/>
+        </div>
+
+        <!-- <div class="form-group">
+            <label for="gender">Gender</label>
+            <div class="form-group gender">
+                <input type="radio" id="male" name="gender">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender">
+                <label for="female">Female</label>
+            </div>
+        </div> -->
+
+        <div class="form-group">
+                <label for="city">City</label>
+                <input type="text" id="city" placeholder="City"/>
+        </div>
+        
+        
+        <button type="submit" class="btn"><i class="fa-regular fa-floppy-disk"></i> Save</button>
+    </form>
+
+    <table>
+        <thead>
+            <th>S.No</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>City</th>
+            <!-- <th>Gender</th> -->
+            <th>Edit</th>
+            <th>Delete</th>
+        </thead>
+        <tbody id="tblBody">
+            <!-- <tr>
+                <td>1</td>
+                <td>Arun</td>
+                <td>22</td>
+                <td>chennai</td>
+                <td>
+                    <button class="btn-edit"><i class="fa-solid fa-edit"></i></button>
+                </td>
+                <td>
+                    <button class="btn-delete"><i class="fa-solid fa-trash"></i></button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>shree</td>
+                <td>22</td>
+                <td>chennai</td>
+                <td>
+                    <button class="btn-edit"><i class="fa-solid fa-edit"></i></button>
+                </td>
+                <td>
+                    <button class="btn-delete"><i class="fa-solid fa-trash"></i></button>
+                </td>
+            </tr> -->
+        </tbody>
+    </table>
+
+    <script src="https://kit.fontawesome.com/f8a808a5e6.js" crossorigin="anonymous"></script>
+    <script src="js/crud.js" type="module"></script>
+</body>
+</html>
